@@ -1,0 +1,83 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    background-image: url(download.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.banner {
+    position: relative; 
+    width: calc(100% - 60px);
+    height: 250px;
+    border-radius: 40px;
+    margin: 30px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); /* Apply blur effect to the background behind the banner */
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    padding: 25px 25px 15px 25px;
+}
+
+.teamA {
+    position: relative;
+    left: 100px;
+    text-align: center;
+}
+
+.teamB {
+    position: relative;
+    right: 100px;
+    text-align: center;
+}
+
+.score {
+    font-size: x-large;
+}
+
+#live {
+    color: white;
+    background-color: blue;
+    font-size: x-large;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 12px 10px;
+    border-radius: 20px;
+}
+
+.balls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: larger;
+}
+
+.curr_bowler {
+    position: relative;
+    left: 120px;
+    text-align: center;
+}
+
+.curr_bat {
+    position: relative;
+    right: 130px;
+    text-align: center;
+}

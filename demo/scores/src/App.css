@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+.match-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.match-button:hover {
+  background-color: #007b9a;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.match-button:focus {
+  outline: none;
+}
+.match-button .details {
+  display: none;
+  padding-top: 15px;
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 400;
+}
+.match-button .details p {
+  margin: 5px 0;
+}
+.match-button .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+.match-button.expanded .icon {
+  transform: translateY(-50%) rotate(180deg);
+}
